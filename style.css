@@ -1,0 +1,46 @@
+#Lessons .Monday li{
+    color: #ff0000; 
+  }
+  #Lessons .Tuesday li{
+    color: #4dff5c; 
+  }
+  #Lessons .Wednesday li{
+    color: #0004ff; 
+  }
+  #Lessons .Thursday li{
+    color: #824dff; 
+  }
+  #Lessons .Friday li{
+    color: #ffa600; 
+  }
+  #Lessons .Monday li:hover{
+    color: #000;
+    background-color: #ff0000;
+  }
+  #Lessons .Tuesday li:active{
+    color: #000;
+    background-color: #4dff5c;
+  }  
+  #Lessons .Wednesday li:focus{
+    color: #000;
+    background-color: #0004ff;
+  }
+  #Lessons .Thursday li:empty{
+    color: #000;
+    background-color: #824dff;
+  }
+  #Lessons .Friday li:hover{
+    color: #000;
+    background-color: #ffa600;
+  }
+  #Lessons ul li:nth-of-type(1) {
+ font-size:25px;
+  }
+  #Lessons ul li:nth-of-type(2) {
+  font-style: italic;
+  font-size: xx-large;
+     }
+  #Lessons ul li:last-child {
+  background-color: #000;
+  }
+  
